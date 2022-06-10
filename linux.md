@@ -1,5 +1,11 @@
-# Linux commands  
-## User 
+# Linux   
+
+## System
+
+>UNIX -> Linux -> Debian -> Ubuntu -> Mint 
+
+## Commands
+### User 
 
 ```
 useradd [OPTIONS] USERNAME
