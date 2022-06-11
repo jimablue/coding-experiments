@@ -4,8 +4,48 @@
 
 >UNIX -> Linux -> Debian -> Ubuntu -> Mint 
 
-## Commands
-### User 
+### Commands
+
+```
+history
+ctrl-R //reverse search
+```
+#### Manage FIle system
+wildcards
+
+`
+ *
+ ?  
+ []
+`
+
+```
+mv -b directory1 directory2 //make a backup of the overwritten file
+
+mkdir -p books/hemmingway/favorites //make subdir too
+find /home -name puppies.jpg
+
+```
+#### Text
+```
+echo sometext > text.txt // >> for append
+cat < peanuts.txt > banana.txt
+ls /fake/directory > peanuts.txt 2>&1 //stdin stdout stderr
+ls /fake/directory &> peanuts.txt
+ls /fake/directory 2> /dev/null
+
+ls -la /etc | less 
+ls | tee peanuts.txt
+
+cut -f 1 -d ";" sample.txt
+```
+cut (1)              - remove sections from each line of files  
+paste (1)            - merge lines of files
+head (1)             - output the first part of files  
+tail (1)             - output the last part of files // -f to see realtime updates to the file
+
+
+### System User 
 
 ```
 useradd [OPTIONS] USERNAME
