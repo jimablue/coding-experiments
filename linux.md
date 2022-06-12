@@ -38,12 +38,15 @@ ls -la /etc | less
 ls | tee peanuts.txt
 
 cut -f 1 -d ";" sample.txt
+
+env | grep -i User
+ls /somedir | grep '.txt$'
 ```
 cut (1)              - remove sections from each line of files  
 paste (1)            - merge lines of files
 head (1)             - output the first part of files  
 tail (1)             - output the last part of files // -f to see realtime updates to the file
-
+expand, unexpand
 
 ### System User 
 
