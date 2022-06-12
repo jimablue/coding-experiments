@@ -1,5 +1,0 @@
-cut (1)              - remove sections from each line of files
-paste (1)            - merge lines of files
-head (1)             - output the first part of files
-HEAD (1p)            - Simple command line user agent
-tail (1)             - output the last part of files
