@@ -1,8 +1,4 @@
-# Linux   
-
-## System
-
->UNIX -> Linux -> Debian -> Ubuntu -> Mint 
+# Bash Scripts Notes   
 
 ### Commands
 
