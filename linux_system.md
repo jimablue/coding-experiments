@@ -7,6 +7,22 @@
 
 ### User Processes 
 
+#### Directory Hierarchy 
+![](git/directory-hierarchy.png)
+`/bin` binary, ready-to-run executables eg. ls, cp. created by C compiler  
+`/dev` device files  
+`/etc` core system configuration directory eg. user password, boot, device, networking and other setup files.
+`/lib` libraries that executables can use  
+`/proc`  system statistics 
+`/run` runtime statistics  
+`/sys`  device and system interface  
+`/sbin` system excutables, most for root  
+`/var` variables for system and excutables  
+`/usr` contains a large directory hierarchy   
+-`/usr/local` for administrator, similar to /usr  
+-`/usr/share` files that work on other kinds of Unix machines
+
+
 file compression
 ```
 gzip file \\ file.gz
@@ -19,3 +35,10 @@ tar xvf archive.tar
 tar zxvf archive.tar.gz \\ z for zcat shortcut 
 
 ```
+
+#### Network 
+
+> transport layer and below are primarily handled by the kernel
+> Router connects one subnet to another. Has two address: one for local subnet, one for internet link
+> ipv4: 8 bytes, ipv6 32 bytes
+> hosts normally have two ipv6 address 1)global unicast address(prefix 2000::/3) 2)link-local address(prefix fe80::/10 )
