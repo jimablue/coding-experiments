@@ -42,3 +42,4 @@ tar zxvf archive.tar.gz \\ z for zcat shortcut
 > Router connects one subnet to another. Has two address: one for local subnet, one for internet link
 > ipv4: 8 bytes, ipv6 32 bytes
 > hosts normally have two ipv6 address 1)global unicast address(prefix 2000::/3) 2)link-local address(prefix fe80::/10 )
+>>>>>>> f3f1f856aeede3fb1fabe9600dd7639b75e4c636
