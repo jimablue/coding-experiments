@@ -44,4 +44,4 @@ tar zxvf archive.tar.gz \\ z for zcat shortcut
 > hosts normally have two ipv6 address 1)global unicast address(prefix 2000::/3) 2)link-local address(prefix fe80::/10 )
 
 >DNS: /etc/nsswitch.conf -> /etc/hosts -> /etc/resolve.conf
-`test new bash git shortcut`
+`test`
