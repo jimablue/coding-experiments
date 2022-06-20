@@ -45,3 +45,4 @@ tar zxvf archive.tar.gz \\ z for zcat shortcut
 
 >DNS: /etc/nsswitch.conf -> /etc/hosts -> /etc/resolve.conf
 > netstat -n (disable DNS) -t (tcp) -6 (ipv6) -l (listening)
+> /etc/services port naming conventions
