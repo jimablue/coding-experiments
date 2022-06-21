@@ -40,9 +40,20 @@ tar zxvf archive.tar.gz \\ z for zcat shortcut
 
 > transport layer and below are primarily handled by the kernel
 > Router connects one subnet to another. Has two address: one for local subnet, one for internet link
-> ipv4: 8 bytes, ipv6 32 bytes
+> ipv4: 4 bytes, ipv6 16 bytes
 > hosts normally have two ipv6 address 1)global unicast address(prefix 2000::/3) 2)link-local address(prefix fe80::/10 )
 
 >DNS: /etc/nsswitch.conf -> /etc/hosts -> /etc/resolve.conf
 > netstat -n (disable DNS) -t (tcp) -6 (ipv6) -l (listening)
 > /etc/services port naming conventions
+
+```
+new device on a network 
+
+1. machine broadcasts DHCP to all hosts to get address of DHCP server(usually the router)
+2. DHCP server gives machine a *lease* on an address for a certain amount of time. Client can ask to renew the lease.
+
+```
+
+> iptables: admin tool for ipv4/6 packet filtering and NAT
+> firewall rules consists of a set of chains of rules eg. INPUT, OUTPUT, FORWARD ...
