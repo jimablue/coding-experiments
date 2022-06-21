@@ -54,6 +54,7 @@ new device on a network
 2. DHCP server gives machine a *lease* on an address for a certain amount of time. Client can ask to renew the lease.
 
 ```
-
+> NAT for ip masquerading (private network <-> public network)
 > iptables: admin tool for ipv4/6 packet filtering and NAT
 > firewall rules consists of a set of chains of rules eg. INPUT, OUTPUT, FORWARD ...
+>ARP Address Resolution Protocol: map ip addr to MAC addr
