@@ -57,4 +57,21 @@ new device on a network
 > NAT for ip masquerading (private network <-> public network)
 > iptables: admin tool for ipv4/6 packet filtering and NAT
 > firewall rules consists of a set of chains of rules eg. INPUT, OUTPUT, FORWARD ...
->ARP Address Resolution Protocol: map ip addr to MAC addr
+> ARP Address Resolution Protocol: map ip addr to MAC addri `ip neigh \arp cache`
+
+```
+[ARP only applied to machines on local subnets]
+if target ip not in ARP cache 
+1. Host create Ethernet frame with ARP request packet for MAC address of target IP
+2. Host broadcast this frame to entire physical network for the target's subnet 
+3. any other host that knows the correct MAC addr will send a reply packet (often it's the target host)
+
+```
+
+#### Network Application and Services
+
+```
+telnet example.org 80
+curl --trace-ascii trace_file http://www.example.org
+```
+
