@@ -73,5 +73,12 @@ if target ip not in ARP cache
 ```
 telnet example.org 80
 curl --trace-ascii trace_file http://www.example.org
+lsof -i //list programs listening to ports
+lsof -iprotocol@host:port // filter by port, host, protocol 
+lsof -iTCP -sTCP:LISTEN
+
+tcpdump
+netcat // arbitrary TCP and UDP connections and listens
+nmap
 ```
 
