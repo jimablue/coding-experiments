@@ -82,3 +82,24 @@ netcat // arbitrary TCP and UDP connections and listens
 nmap
 ```
 
+### System Services
+*init* : start and stop essential service processes on the system
+the standard implementation of *init* is **systemd**
+
+booting a system -> activating target unit called *default.target* that groups a number of services and mount units as dependencies
+
+*systemd configuration* controls how *system unit* run
+```
+systemctl -p UnitPath show //current systemd configuration search path
+
+pkg-config systemd --variable=systemdsystemunitdir
+
+pkg-config systemd --variable=systemdsystemconfdir
+
+journalctl -u clash.service
+
+systemctl list-jobs // eg. systemctl reload unit
+```
+system configuration directory: `/etc/systemd/system`
+
+if a unit has [install] section, need to enable to unit with systemctl before you start it
