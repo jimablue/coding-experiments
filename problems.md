@@ -5,4 +5,7 @@ original solution:
 > go through the list again and find out when left sub-list sum equal to right sub-list sum  
 > runtime: O(n)
 
+better solution:
+calculate sum of list and go through the list with a left sum
+
 
