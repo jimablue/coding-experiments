@@ -20,9 +20,12 @@ Docker Client -> REST API -> Docker Daemon
 
 object: `container`, `image`, `network`, `volume`  
 command: `run`  
-options:  `--publish` option for port mapping.  `--publish <host port>:<container port>`
+options:  `--publish/-p` option for port mapping.  `--publish <host port>:<container port>`  
+`--detach/-d` keep container running in the background
 
 `docker container run <image name>`  
 `docker container run --publish 8080:80 fhsinchy/hello-dock`  
 Above means any request sent to port 8080 of your host system will be forwarded to port 80 inside the container‌.
 
+List containers  
+`docker container ls` add `-a` to list all(including not running)
