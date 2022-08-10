@@ -19,9 +19,12 @@ Docker Client -> REST API -> Docker Daemon
 `docker <object> <command> <options>`  
 
 object: `container`, `image`, `network`, `volume`  
-command: `run`  
+command: `run`, `create`,`start` ,`restart` ,`rm`, `prune`(remove all dangling container), 
 options:  `--publish/-p` option for port mapping.  `--publish <host port>:<container port>`  
-`--detach/-d` keep container running in the background
+`--detach/-d` keep container running in the background  
+`--rm` remove after it's stopped  
+`--name` name for container  
+`-it`   
 
 `docker container run <image name>`  
 `docker container run --publish 8080:80 fhsinchy/hello-dock`  
@@ -29,3 +32,16 @@ Above means any request sent to port 8080 of your host system will be forwarded 
 
 List containers  
 `docker container ls` add `-a` to list all(including not running)
+
+### execute commands inside container
+`docker container run <image name> <command>`
+
+### executable images
+
+bind mount: two way data binding between the local file system directory and another directory inside a container
+`--volume <local file system directory absolute path>:<container file system directory absolute path>:<read write access>`
+
+
+### Docker Image manipulation
+
+A `Dockerfile` is a collection of instructions that, once processed by the daemon, results in an image. 
