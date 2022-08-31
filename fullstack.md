@@ -1,5 +1,14 @@
 # NodeJs
 
+NVM: node version manager  
+`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash`  
+Install Node    
+`. ~/.nvm/nvm.sh`  
+`nvm install 12.16.1`  
+Install Yarn (manage third-party packages for node)  
+`npm install --global yarn`
+
+
 
 package.json
 ```
@@ -16,7 +25,11 @@ package.json
 }   
 ```
 
-### Next.Js
+
+
+  
+
+# Next.Js
 
 Create Next.js app
 `npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"`
