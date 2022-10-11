@@ -25,10 +25,30 @@ package.json
 }   
 ```
 
+# React
+**ReactDOM**: to manipulate DOM, e.g. ReactDOM.render()  
+**JSX**: is a syntax extension for JavaScript that allows you to describe your UI in a familiar HTML-like syntax.  
+**Babel**: compile JSX so that browser can understand 
 
 
-  
+## Components
 
+## Props
+
+## State
+A state variable’s value never changes within a render.    
+Setting a state variable will queue another render.   
+React waits until all code in the event handlers has run before processing your state updates. 
+
+updater function can queue multiple updates to state(below n=6)
+``` 
+<button onClick={() => {
+  setNumber(number + 5);
+  setNumber(n => n + 1);
+}}> 
+```
+**update objects/arrays**  
+make a copy and setState
 # Next.Js
 
 Create Next.js app
