@@ -49,6 +49,10 @@ updater function can queue multiple updates to state(below n=6)
 ```
 **update objects/arrays**  
 make a copy and setState
+
+## Context
+Context lets you write components that “adapt to their surroundings” and display themselves differently depending on where (or, in other words, in which context) they are being rendered.
+
 # Next.Js
 
 Create Next.js app
