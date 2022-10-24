@@ -1,6 +1,7 @@
 # Git
 #notes/Git
 
+## Git
 Git has main states that your files can reside in: 
 _committed_: data is safely stored in your local database 
 _modified_: you have changed the file but have not committed yet
