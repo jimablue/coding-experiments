@@ -11,20 +11,20 @@
 `npm install --global yarn`
 
 ## package.json 
-- 
-```js
-{
-  "name":"",
-  "version":"major.minor.patch",
-  "license":"MIT",
-  "scripts":{
-      "dev":"next"
-  },
-  "dependencies":{
-      "":""
-  },
-}   
-```
+-  
+  ```js
+  {
+    "name":"",
+    "version":"major.minor.patch",
+    "license":"MIT",
+    "scripts":{
+        "dev":"next"
+    },
+    "dependencies":{
+        "":""
+    },
+  }   
+  ```
 
 # React
 - **ReactDOM**: to manipulate DOM, e.g. ReactDOM.render()  
