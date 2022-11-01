@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">2</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">31602fde-f06f-4549-a403-a38c24eb713c</dc:identifier>
+        <dc:title>Real-World Bug Hunting</dc:title>
+        <dc:creator opf:file-as="Peter Yaworski" opf:role="aut">Peter Yaworski</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (6.7.1) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2019-06-24T16:00:00+00:00</dc:date>
+        <dc:description>&lt;span&gt;&lt;div&gt;&lt;p&gt;&lt;i&gt;Real-World Bug Hunting&lt;/i&gt; is a field guide to finding software bugs. Ethical hacker Peter Yaworski breaks down common types of bugs, then contextualizes them with real bug bounty reports released by hackers on companies like Twitter, Facebook, Google, Uber, and Starbucks. As you read each report, you'll gain deeper insight into how the vulnerabilities work and how you might find similar ones.&lt;/p&gt;&lt;p&gt;Each chapter begins with an explanation of a vulnerability type, then moves into a series of real bug bounty reports that show how the bugs were found. You'll learn things like how Cross-Site Request Forgery tricks users into unknowingly submitting information to websites they are logged into; how to pass along unsafe JavaScript to execute Cross-Site Scripting; how to access another user's data via Insecure Direct Object References; how to trick websites into disclosing information with Server Side Request Forgeries; and how bugs in application logic can lead to pretty serious vulnerabilities. Yaworski also shares advice on how to write effective vulnerability reports and develop relationships with bug bounty programs, as well as recommends hacking tools that can make the job a little easier.&lt;/p&gt;&lt;/div&gt;&lt;/span&gt;</dc:description>
+        <dc:publisher>No Starch Press</dc:publisher>
+        <dc:identifier opf:scheme="ISBN">9781593278618</dc:identifier>
+        <dc:language>eng</dc:language>
+        <meta name="calibre:author_link_map" content="{&quot;Peter Yaworski&quot;: &quot;&quot;}"/>
+        <meta name="calibre:timestamp" content="2022-11-01T03:55:06+00:00"/>
+        <meta name="calibre:title_sort" content="Real-World Bug Hunting"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="cover.jpg"/>
+    </guide>
+</package>
