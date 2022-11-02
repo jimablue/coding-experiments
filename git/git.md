@@ -163,7 +163,7 @@ See what tracking branches you have set up  `git branch -vv` ( the commits info 
 
 To delete remote branch: `git push origin --delete master`
 
-Rebasing 
+## Rebasing 
 ![](img/interesting-rebase-1.png)
 ![](img/Screen%20Shot%202019-03-16%20at%2011.14.36%20PM.png)
 
