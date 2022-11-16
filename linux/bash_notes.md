@@ -6,6 +6,17 @@
 history
 ctrl-R //reverse search
 ```
+
+### Shell
+
+for login shell(first time in)
+    /etc/profile sets up the environment configuration for all users.
+    if .bash_profile exists, execute ( usually for env variable ) [then calls .bashrc]
+    if not, look for .bash_login and .profile
+for non-login 
+    every non-login read .bashrc first 
+
+
 #### Manage FIle system
 wildcards
 
