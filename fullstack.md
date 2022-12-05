@@ -1,3 +1,9 @@
+# Fullstack
+
+# Nginx
+- /etc/nginx.conf 
+- nginx -s reload 
+
 # NodeJs
 
 ## Tools  
