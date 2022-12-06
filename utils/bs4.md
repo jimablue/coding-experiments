@@ -1,6 +1,8 @@
-
 open and read html file
 ```
+
+import BeautifulSoup from bs4
+
 with open('./xxx.html', 'r') as f:
     file = f.read()
     contents = BeautifulSoup(file, 'html.parser')
